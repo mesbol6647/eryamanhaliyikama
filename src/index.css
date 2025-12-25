@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .loginDiv{
+        /* background: linear-gradient(71deg, #5B0888 19.35%, #713ABE 90.12%);  */
+        background: bg-opacity-50;
+        @apply flex justify-center items-center min-h-screen;
+    }
+    .login-input{
+        height:44px;
+        border-radius: 4px;
+        border:1px solid #e5e5e5;
+        padding: 0.6rem;
+        /* @apply focus:outline-main focus:caret-main; */
+    }
+    .login-input::placeholder{
+        color: #dd0606;
+        /* @apply font-montserrat text-[12px] font-[400]; */
+    }
+
+    .card-div{
+        @apply mt-6 grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-10 xl:gap-x-8;
+    }
+    .container {
+       @apply mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8;
+    }
+}
+/* CSS (global.css veya module.css'e ekleyin) */
+.grid-mobile-first {
+  display: grid;
+  grid-template-areas:
+    "main"
+    "left"
+    "right";
+  gap: 1.5rem;
+}
+
+.main-content { grid-area: main; }
+.left-sidebar { grid-area: left; }
+.right-sidebar { grid-area: right; }
+
+@media (min-width: 1024px) {
+  .grid-mobile-first {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "left main right";
+  }
+}

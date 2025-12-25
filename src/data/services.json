@@ -1,0 +1,192 @@
+{
+  "services": {
+   "hali-yikama": {
+  "title": "Halı Yıkama",
+  "image": "/images/hali2.png",
+  "content": [
+    "Halılarınız için en hijyenik, güvenilir ve profesyonel temizlik çözümü halı yıkama hizmetimizdir.",
+    "Ev ve iş yerlerinizden halılarınız kapıdan teslim alınır, özel sistemlerle derinlemesine temizlenir ve kurutularak adresinize geri teslim edilir.",
+    "Yıkama sürecinde kullanılan tüm makinelerimiz son teknolojiye sahiptir ve halının türüne uygun özel yıkama programları uygulanır.",
+    "Bu hizmet, sadece temizlik değil; aynı zamanda evinizin hijyen ve estetik bütünlüğünü korumanın da en önemli adımıdır.",
+    "Shaggy, el dokuma, yün, ipek, makine halısı gibi tüm halı türleri için farklı teknikler uygulanarak en iyi sonuç hedeflenir.",
+    "Yıkama öncesi toz alma, leke tespiti ve ön işlem gibi aşamalar uzman ekip tarafından titizlikle yapılır.",
+    "Her halı türü için özel deterjan ve fırçalama sistemleri kullanılarak liflere zarar vermeden temizlik sağlanır.",
+    "Kurutma işlemi tamamen kapalı, tozsuz ve güneş görmeyen özel kurutma alanlarında gerçekleştirilir.",
+    "İsteğe bağlı olarak antibakteriyel yıkama ve koku giderme işlemleri de uygulanmaktadır.",
+    "Alerji, hijyen veya estetik kaygısı duyan herkes için bu hizmet ideal bir çözümdür."
+  ],
+  "detailsTitle": "🔑 Hizmet Detayları:",
+  "details": [
+    "📍 Halılar evinizden alınır ve yıkandıktan sonra adresinize teslim edilir",
+    "🌀 Shaggy, yün, el dokuma, ipek ve makine halılarına özel yıkama teknikleri",
+    "🧼 Bitkisel içerikli, halıya zarar vermeyen özel deterjanlar",
+    "🧽 Ön yıkama, durulama, sıkma ve kurutma aşamaları tamamen makineli sistemle",
+    "🏡 Tüm işlemler kendi tesisimizde, profesyonel ekip tarafından gerçekleştirilir",
+    "🌿 İsteğe göre antibakteriyel yıkama ve özel parfüm uygulaması"
+  ],
+  "idealTitle": "💡 Kimler İçin İdeal?",
+  "ideal": [
+    "🏠 Evde küçük çocuk ya da bebek bulunan aileler",
+    "🤧 Toz ve mite alerjisi olan bireyler",
+    "🧼 Halılarının ilk günkü gibi tertemiz olmasını isteyen titiz kullanıcılar",
+    "🛋️ Büyük halı, yolluk veya özel dokuma halıları olanlar",
+    "🧳 Yoğun çalışan ve halı temizliğiyle vakit kaybetmek istemeyen kişiler"
+  ]
+},
+
+    "koltuk-yikama": {
+  "title": "Koltuk Yıkama",
+  "image": "/images/koltuk.png",
+  "content": [
+    "Koltuk yıkama hizmetimiz, ev ve iş yerlerinde hijyenin sağlanması, kötü kokuların giderilmesi ve koltukların ilk günkü görünümüne kavuşması için profesyonel çözümler sunar.",
+    "İster ev tipi kumaş koltuklar, ister ofis koltukları veya köşe takımları olsun; tüm koltuk türleri için uygun temizlik yöntemleri uygulanır.",
+    "Koltuklar yerinde, evinizden taşınmadan özel makineler ve profesyonel temizlik ürünleri ile yıkanır. Böylece hem zahmetsiz hem de hızlı bir hizmet sunulur.",
+    "Kumaşın türüne göre farklı temizlik teknikleri uygulanır; bu sayede renk solması, deformasyon ve kötü kokular önlenir.",
+    "Toz, bakteri, akar (mite), evcil hayvan tüyü ve leke gibi derinlemesine kirler tamamen ortadan kaldırılır.",
+    "Uygulama sonrası koltuklarınız hem hijyenik hale gelir hem de ortama ferah bir koku yayılır.",
+    "Hizmet öncesi yerinde keşif yapılabilir ve koltuk kumaşı analiz edilerek uygun işlem planlanır.",
+    "Özellikle küçük çocuklu aileler, evcil hayvan sahipleri ve alerjik bünyeye sahip bireyler için koltuk yıkama hizmetimiz vazgeçilmezdir."
+  ],
+  "detailsTitle": "🚿 Hizmet Detayları:",
+  "details": [
+    "🧼 Yerinde, evden taşımadan koltuk yıkama hizmeti",
+    "🛋 Tüm kumaş türlerine özel temizlik teknikleri",
+    "🦠 Akar, bakteri ve kötü koku giderici hijyenik uygulama",
+    "💨 Hızlı kuruma sağlayan güçlü vakumlu makineler",
+    "🌿 Çevre dostu, insan sağlığına zararsız temizlik ürünleri",
+    "📆 Randevulu sistemle zamanında ve düzenli hizmet"
+  ],
+  "idealTitle": "💼 Kimler İçin Uygun?",
+  "ideal": [
+    "👶 Küçük çocuğu olan ev sahipleri",
+    "🐶 Evcil hayvan besleyen aileler",
+    "🤧 Alerji, astım veya hassas cilt problemi yaşayan bireyler",
+    "🪑 Yoğun kullanılan ofis, klinik veya iş yerleri",
+    "🧽 Koltuklarını düzenli olarak yeniletmek isteyen titiz kullanıcılar"
+  ]
+},
+
+    "yatak-yikama": {
+  "title": "Yatak Yıkama",
+  "image": "/images/yatak.png",
+  "content": [
+    "Yatak yıkama hizmetimiz, hijyenin en önemli olduğu alanlardan biri olan yataklarınız için derinlemesine temizlik sağlar.",
+    "Ev ortamında temizlikle giderilemeyen mite (akar), bakteri ve kötü kokular, özel makinelerimiz ve profesyonel temizlik solüsyonlarımız ile tamamen ortadan kaldırılır.",
+    "Yataklarınız yerinden taşınmadan, bulunduğu ortamda vakumlu sistemle yıkanır ve hızlı kurutma teknolojisi sayesinde kısa sürede kullanıma hazır hale getirilir.",
+    "Bu hizmet sayesinde yatakta biriken insan teri, cilt kalıntısı, toz ve mikroskobik canlılar sağlığınızı tehdit etmeden temizlenmiş olur.",
+    "Yıkama sırasında kullanılan ürünler, anti-alerjen özellikli ve insan sağlığına zararsızdır. Özellikle hassas ciltli bireyler için uygundur.",
+    "Yatak temizliği, uyku kalitenizi artırır, kötü kokuları giderir ve yatağın ömrünü uzatır.",
+    "Ayrıca çocuk yatakları, bebek karyolaları, ortopedik yataklar ve lüks yatak modelleri için özel işlem uygulanır."
+  ],
+  "detailsTitle": "🛏 Hizmet Detayları:",
+  "details": [
+    "🚿 Yerinde, yatağı taşımadan profesyonel temizlik",
+    "🦠 Akar (mite), bakteri ve kötü koku giderici uygulama",
+    "🌬 Vakumlu sistemle yıkama ve hızlı kurutma",
+    "🌿 Alerji dostu, antibakteriyel özel temizlik solüsyonları",
+    "👶 Çocuk ve bebek yatakları için özel yıkama programları",
+    "📆 Randevulu sistem ve düzenli periyodik temizlik imkânı"
+  ],
+  "idealTitle": "🎯 Kimler İçin İdeal?",
+  "ideal": [
+    "👶 Bebek ve küçük çocuğu olan aileler",
+    "🤧 Alerji, astım veya solunum hassasiyeti olan bireyler",
+    "🛏 Uzun süredir temizlenmeyen yataklara sahip kullanıcılar",
+    "🧼 Uyku kalitesini ve hijyenini önemseyen herkes",
+    "🏥 Hastalık sonrası yatak hijyenine önem veren bireyler"
+  ]
+},
+    "yorgan-yikama": {
+  "title": "Yorgan Yıkama",
+  "image": "/images/yorgan.png",
+  "content": [
+    "Yorgan yıkama hizmetimiz, ev tipi çamaşır makinelerine sığmayan ve hijyenik açıdan özel bakım gerektiren yorganlarınız için profesyonel temizlik çözümleri sunar.",
+    "Pamuk, yün, elyaf ve bambu gibi farklı dolgu malzemelerine sahip yorganlarınız, türüne uygun özel programlarla yıkanır ve zarar görmeden temizlenir.",
+    "Yıkama öncesi leke tespiti, toz alma ve ön işlem aşamalarıyla yorganlar derinlemesine arındırılır.",
+    "Sanayi tipi yorgan yıkama makineleri sayesinde hem daha hijyenik hem de tam kurutmalı temizlik sağlanır.",
+    "Hizmet kapsamında antibakteriyel deterjanlar ve cilt dostu malzemeler kullanılır; kötü koku, bakteri ve akar gibi oluşumlar tamamen giderilir.",
+    "Yorganlar özel koruyucu ambalajlarla teslim alınır ve yıkama sonrası hijyenik paketleme ile iade edilir.",
+    "Bebek yorganı, misafir yorganı, yazlık ve kışlık yorganlar gibi farklı türlerde hizmet sunulur."
+  ],
+  "detailsTitle": "🧼 Hizmet Detayları:",
+  "details": [
+    "🛏 Pamuk, yün, elyaf, bambu gibi tüm yorgan türlerine uygun yıkama",
+    "🌀 Sanayi tipi makinelerde tam otomatik temizlik ve kurutma",
+    "🌿 Antibakteriyel ve cilt dostu temizlik ürünleri kullanımı",
+    "📦 Hijyenik paketleme ve düzenli teslimat",
+    "🧺 Leke öncesi tespit ve ön yıkama uygulamaları",
+    "📆 Randevulu sistem ve periyodik bakım imkânı"
+  ],
+  "idealTitle": "👨‍👩‍👧‍👦 Kimler İçin İdeal?",
+  "ideal": [
+    "👨‍👩‍👧 Kalabalık aileler veya mevsimlik yorgan değiştiren evler",
+    "🧸 Bebek ve çocuklara özel yorgan kullanan aileler",
+    "🏡 Misafir odası için temiz ve kokusuz yorgan hazırlamak isteyenler",
+    "🛌 Yazlık ve kışlık yorganlarını sezonluk yıkatmak isteyen kullanıcılar",
+    "🎯 Yorganlarının uzun ömürlü ve hijyenik kalmasını isteyen titiz bireyler"
+  ]
+},
+   "perde-yikama": {
+  "title": "Stor Perde Yıkama",
+  "content": [
+    "Stor perde yıkama hizmetimiz, hassas kumaş yapısına ve mekanizmasına zarar vermeden profesyonel temizlik sağlayan özel bir işlemdir.",
+    "Ev, ofis, otel veya iş yerlerinde kullanılan stor, zebra, katlamalı ve güneşlik perdeler; yerinden sökülerek tesisimizde itinalı bir şekilde yıkanır.",
+    "Kirli, tozlu ve lekeli stor perdeler özel solüsyonlar ile yıkanarak ilk günkü canlılığına ve temizliğine kavuşur.",
+    "Mekanizmalı yapıya sahip stor perdeler, söküm ve montaj sürecinde uzman ekip tarafından dikkatlice işleme alınır.",
+    "Perdelerin yapısına göre elle silme, vakumlu yıkama veya özel makine sistemleri tercih edilir. Böylece deformasyon ve renk solması gibi problemler önlenir.",
+    "Yıkama sonrası tüm perdeler kurutulur, ütülenir ve hijyenik olarak paketlenerek adresinize geri teslim edilir.",
+    "Görünümde şıklığı ve hijyeni önemseyen tüm kullanıcılar için bu hizmet ideal bir çözümdür."
+  ],
+  "detailsTitle": "🧽 Hizmet Detayları:",
+  "details": [
+    "📦 Perdeler yerinden sökülerek profesyonel ortamda yıkanır",
+    "🧼 Stor, zebra, güneşlik ve katlamalı perde tiplerine özel temizlik",
+    "🔧 Mekanizma ve kumaşa zarar vermeyen hassas temizlik işlemi",
+    "🌬 Kurutma, ütüleme ve hijyenik ambalajlama süreci",
+    "🚚 Adresten alım ve adrese geri teslimat hizmeti",
+    "📍 Antalya merkez ve çevre ilçelerinde geçerlidir"
+  ],
+  "idealTitle": "🏡 Kimler İçin Uygun?",
+  "ideal": [
+    "🏢 Ofis ve iş yerlerinde stor perde kullanan işletmeler",
+    "🧼 Perdelerinin estetik görünümünü ve temizliğini önemseyen ev sahipleri",
+    "🏨 Otel ve konaklama işletmelerinde hijyenik perde hizmeti arayanlar",
+    "👨‍👩‍👧‍👦 Evinde çocuk veya evcil hayvan bulunan kullanıcılar",
+    "📅 Belirli aralıklarla düzenli temizlik yaptırmak isteyen titiz bireyler"
+  ]
+},    
+   "hali-tamir-overlok": {
+  "title": "Halı Tamir Overlok",
+  "content": [
+    "Halı tamir ve overlok hizmetimiz; yıpranmış, kenarları sökülmüş, iplik atmış veya eskiyen halılarınızı yeniden kullanılabilir hale getirir.",
+    "Makine halıları, el dokuma, yün, ipek ya da shaggy fark etmeksizin her halı türü için özel tekniklerle tamir ve bakım yapılır.",
+    "Kenar overlok işlemleriyle halının estetik görünümü yeniden kazandırılır, iplik atmaları engellenir ve kullanım ömrü uzatılır.",
+    "Sökülme, delik, yanık izi, saçak sökülmesi gibi sorunlarda halınızın dokusuna uygun yama ve onarım çalışmaları titizlikle gerçekleştirilir.",
+    "Özellikle manevi değeri yüksek veya pahalı halılarınız için profesyonel müdahale gerektiren işlemler, deneyimli ustalar tarafından yapılır.",
+    "Halı tamir ve overlok işlemleri kendi atölyemizde yapılmakta olup, dilerseniz adresten alım ve teslimat desteği de sunulmaktadır.",
+    "Bu hizmet sayesinde yeni halı almak zorunda kalmadan eski halınızı ilk günkü gibi kullanmaya devam edebilirsiniz."
+  ],
+  "detailsTitle": "🧵 Hizmet Detayları:",
+  "details": [
+    "🧶 Halı kenar overlok, saçak yenileme ve iplik tamiri işlemleri",
+    "🪡 Yırtık, delik ve yanık onarımı – halının dokusuna uygun yama çalışmaları",
+    "🧼 Tamir öncesi ve sonrası temizlik, bakım ve kontrol işlemleri",
+    "🖐 El dokuma, makine halısı ve özel halılar için özel çözümler",
+    "🏠 Talep halinde adresten alım ve teslimat hizmeti",
+    "🎨 Halıya uygun renk ve desenle onarım – estetik bütünlük sağlanır"
+  ],
+  "idealTitle": "🔧 Kimler İçin Uygun?",
+  "ideal": [
+    "👨‍👩‍👧‍👦 Halısını atmak yerine onartmak isteyen aileler",
+    "💎 Manevi veya maddi değeri yüksek özel halılara sahip bireyler",
+    "🧶 El dokuma ve özel üretim halılarında bakım ihtiyacı olanlar",
+    "🏠 Evini yenileyip eski halısını tekrar kullanmak isteyen kullanıcılar",
+    "🧼 Halısında iplik atması, saçak bozulması ya da kenar sökülmesi yaşayan herkes"
+  ]
+}
+
+
+
+
+  }
+}
