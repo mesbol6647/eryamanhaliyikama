@@ -1,7 +1,7 @@
 {
   "services": {
    "hali-yikama": {
-  "title": "Halı Yıkama",
+  "title": "Eryaman Halı Yıkama",
   "image": "/images/hali2.png",
   "content": [
     "Halılarınız için en hijyenik, güvenilir ve profesyonel temizlik çözümü halı yıkama hizmetimizdir.",
@@ -35,7 +35,7 @@
 },
 
     "koltuk-yikama": {
-  "title": "Koltuk Yıkama",
+  "title": "Eryaman Koltuk Yıkama",
   "image": "/images/koltuk.png",
   "content": [
     "Koltuk yıkama hizmetimiz, ev ve iş yerlerinde hijyenin sağlanması, kötü kokuların giderilmesi ve koltukların ilk günkü görünümüne kavuşması için profesyonel çözümler sunar.",
@@ -67,7 +67,7 @@
 },
 
     "yatak-yikama": {
-  "title": "Yatak Yıkama",
+  "title": "Eryaman Yatak Yıkama",
   "image": "/images/yatak.png",
   "content": [
     "Yatak yıkama hizmetimiz, hijyenin en önemli olduğu alanlardan biri olan yataklarınız için derinlemesine temizlik sağlar.",
@@ -97,7 +97,7 @@
   ]
 },
     "yorgan-yikama": {
-  "title": "Yorgan Yıkama",
+  "title": "Eryaman Yorgan Yıkama",
   "image": "/images/yorgan.png",
   "content": [
     "Yorgan yıkama hizmetimiz, ev tipi çamaşır makinelerine sığmayan ve hijyenik açıdan özel bakım gerektiren yorganlarınız için profesyonel temizlik çözümleri sunar.",
@@ -127,7 +127,7 @@
   ]
 },
    "perde-yikama": {
-  "title": "Stor Perde Yıkama",
+  "title": "Eryaman Perde Yıkama",
   "content": [
     "Stor perde yıkama hizmetimiz, hassas kumaş yapısına ve mekanizmasına zarar vermeden profesyonel temizlik sağlayan özel bir işlemdir.",
     "Ev, ofis, otel veya iş yerlerinde kullanılan stor, zebra, katlamalı ve güneşlik perdeler; yerinden sökülerek tesisimizde itinalı bir şekilde yıkanır.",
@@ -156,7 +156,7 @@
   ]
 },    
    "hali-tamir-overlok": {
-  "title": "Halı Tamir Overlok",
+  "title": "Eryaman Halı Tamir Overlok",
   "content": [
     "Halı tamir ve overlok hizmetimiz; yıpranmış, kenarları sökülmüş, iplik atmış veya eskiyen halılarınızı yeniden kullanılabilir hale getirir.",
     "Makine halıları, el dokuma, yün, ipek ya da shaggy fark etmeksizin her halı türü için özel tekniklerle tamir ve bakım yapılır.",
