@@ -17,23 +17,22 @@ function Dashboard() {
     <>
     <div className="relative w-full">
   {/* Masaüstü Banner */}
-  <div className="hidden md:block w-full h-[750px]">
+  <div className="hidden md:block w-full h-[850px]">
     <img
-      src="/images/pcbanner5.png"
+      src="/images/pcbanner6.png"
       alt="PC Banner"
       className="w-full h-full object-cover"
     />
   </div>
+{/* Mobil Banner */}
+<div className="block md:hidden w-full">
+  <img
+    src="/images/mobilbanner8.webp"
+    alt="Mobil Banner"
+    className="w-full h-auto "
+  />
+</div>
 
-  {/* Mobil Banner */}
-  <div className="block md:hidden w-full h-[450px]">
-    <img
-      // src="/images/mobilehalibanner.png"
-      src="/images/mobilbanner7.png"
-      alt="Mobil Banner"
-      className="w-full h-[500px] object-cover"
-    />
-  </div>
 </div>
 
 

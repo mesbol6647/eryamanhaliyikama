@@ -59,8 +59,8 @@ const Navbar = () => {
       // position="fixed"
       elevation={4}
       sx={{
-        backgroundColor: "rgba(17, 24, 39, 0.9)",
-        backdropFilter: "blur(6px)",
+        backgroundColor: "rgba(17, 24, 39, 0.1)",
+        backdropFilter: "blur(0px)",
         zIndex: 1500,
       }}
     >
@@ -76,7 +76,7 @@ const Navbar = () => {
         >
           {/* Sol Logo + Başlık */}
           <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-            <Box
+            {/* <Box
               component="img"
               src="/images/logohali.png"
               alt="logo"
@@ -87,8 +87,8 @@ const Navbar = () => {
                 cursor: "pointer",
               }}
               onClick={() => navigate("/")}
-            />
-            <Typography
+            /> */}
+            {/* <Typography
               variant="h6"
               sx={{
                 color: scrolled ? "blue" : "white",
@@ -102,7 +102,7 @@ const Navbar = () => {
               }}
             >
               ERYAMAN HALI YIKAMA
-            </Typography>
+            </Typography> */}
           </Box>
 
           {/* Masaüstü Menü */}

@@ -321,58 +321,67 @@ const Section1 = () => {
     <section className="bg-white py-12 px-4 md:px-10 max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
       {/* Orta Hizmet Kartları */}
       <div className="md:col-span-2">
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8">
-          {services.map((service, idx) => (
-            <div key={idx} className="text-center">
-              <Link
-                to={service.link}
-                className="block border border-gray-300 rounded-3xl overflow-hidden shadow hover:shadow-lg transition"
-              >
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-[160px] object-cover"
-                />
-              </Link>
-              <div className="mt-2 font-semibold text-sm md:text-base text-green-500">
-                {service.title}
-              </div>
+
+  {/* ✅ Başlık – mobilde büyük, desktop aynı */}
+  <h2 className="text-2xl md:text-2xl font-bold text-blue-600 mb-4 text-center md:text-left">
+    ERYAMAN HALI-KOLTUK YIKAMA
+  </h2>
+
+  {/* ✅ Açıklama – mobilde büyük + iki yana yaslı */}
+  <p className="text-gray-700 mb-4 text-lg md:text-base text-justify md:text-left leading-relaxed">
+    Eryaman Halı Yıkama olarak halılarınızı gönül rahatlığıyla bize emanet edebilirsiniz.
+    Uygun fiyat, hijyenik yıkama ve randevulu ücretsiz servis anlayışıyla Eryaman’ın tüm etaplarına
+    düzenli alım–teslimat sağlıyoruz.
+  </p>
+
+  {/* ✅ Liste – mobilde büyük + justify */}
+  <ul className="list-disc ml-5 text-gray-700 space-y-3 text-base md:text-base text-justify md:text-left leading-relaxed">
+    <li>Eryaman ve çevresinde tüm halı türlerine uygun profesyonel yıkama uygulanır.</li>
+    <li>Kullandığımız temizlik ürünleri tekstil yüzeylerine uygun ve güvenli ürünlerdir.</li>
+    <li>Halılarınız randevulu şekilde adresinizden alınır, temizlenip paketlenerek teslim edilir.</li>
+    <li>Kurutma süreci kontrollü yapılır; koku ve nem riski azaltılır.</li>
+    <li>Hedefimiz her zaman yüksek memnuniyet ve düzenli hizmet kalitesidir.</li>
+  </ul>
+
+  {/* ✅ Çalışma saatleri */}
+  <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
+    <img src="/images/person.png" alt="Person" className="h-28 w-auto" />
+
+    <div className="text-center sm:text-left">
+      <h4 className="font-bold text-[#AD7000] mb-1">Çalışma Saatlerimiz</h4>
+
+      <p className="text-base md:text-sm text-gray-800 leading-relaxed">
+        Hafta içi: 08.00 - 20.00
+        <br />
+        Cumartesi - Pazar: 08.00 - 20.00
+      </p>
+
+      {/* ✅ Hizmet kartları */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-6 mb-8">
+        {services.map((service, idx) => (
+          <div key={idx} className="text-center">
+            <Link
+              to={service.link}
+              className="block border border-gray-300 rounded-3xl overflow-hidden shadow hover:shadow-lg transition"
+            >
+              <img
+                src={service.image}
+                alt={service.title}
+                className="w-full h-[160px] object-cover"
+              />
+            </Link>
+
+            <div className="mt-2 font-semibold text-sm md:text-base text-green-600">
+              {service.title}
             </div>
-          ))}
-        </div>
-
-        {/* ✅ Başlık düzeltildi */}
-        <h2 className="text-lg md:text-2xl font-bold text-green-600 mb-4 text-center md:text-left">
-          Eryaman Halı Yıkama
-        </h2>
-
-        {/* ✅ Metin Eryaman’a göre düzeltildi */}
-        <p className="text-gray-700 mb-3 text-sm md:text-base">
-          Eryaman Halı Yıkama olarak halılarınızı gönül rahatlığıyla bize emanet edebilirsiniz.
-          Uygun fiyat, hijyenik yıkama ve randevulu ücretsiz servis anlayışıyla Eryaman’ın tüm etaplarına
-          düzenli alım–teslimat sağlıyoruz.
-        </p>
-
-        <ul className="list-disc ml-5 text-gray-700 space-y-2 text-sm md:text-base">
-          <li>Eryaman ve çevresinde tüm halı türlerine uygun profesyonel yıkama uygulanır.</li>
-          <li>Kullandığımız temizlik ürünleri tekstil yüzeylerine uygun ve güvenli ürünlerdir.</li>
-          <li>Halılarınız randevulu şekilde adresinizden alınır, temizlenip paketlenerek teslim edilir.</li>
-          <li>Kurutma süreci kontrollü yapılır; koku ve nem riski azaltılır.</li>
-          <li>Hedefimiz her zaman yüksek memnuniyet ve düzenli hizmet kalitesidir.</li>
-        </ul>
-
-        <div className="mt-6 flex flex-col sm:flex-row items-center gap-4">
-          <img src="/images/person.png" alt="Person" className="h-28 w-auto" />
-          <div className="text-center sm:text-left">
-            <h4 className="font-bold text-[#AD7000] mb-1">Çalışma Saatlerimiz</h4>
-            <p className="text-sm text-gray-800">
-              Hafta içi: 08.00 - 20.00
-              <br />
-              Cumartesi - Pazar: 08.00 - 20.00
-            </p>
           </div>
-        </div>
+        ))}
       </div>
+    </div>
+  </div>
+
+</div>
+
 
       {/* Sağ Menü */}
       <aside className="space-y-10 md:space-y-10">

@@ -13,17 +13,21 @@ function DashboardBlog() {
         {/* === PC Görseli ve Arama Kutusu === */}
         <div className="hidden md:block bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/images/pcbanner5.png')",
-            height: "750px",
+            backgroundImage: "url('/images/pcbanner6.png')",
+            height: "850px",
             width: "100%",
           }}>
        
         </div>
 
         {/* === Mobil Görsel ve Arama Kutusu === */}
-        <div className="block md:hidden relative h-[400px] bg-cover bg-center bg-no-repeat mt-20 "
-       style={{ backgroundImage: "url('/images/mobilehalibanner.png')" }}>
-  </div>
+        <div className="block md:hidden w-full">
+  <img
+    src="/images/mobilbanner8.webp"
+    alt="Mobil Banner"
+    className="w-full h-auto "
+  />
+</div>
       </section>      
     </>
   );
