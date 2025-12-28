@@ -20,7 +20,7 @@ const FloatingButtons = () => {
 
       {/* Telefon (Sol altta) */}
       <div className="fixed bottom-4 left-4 z-50 animate-bounce ">
-        <a href="tel:+905309020175">
+        <a href="tel:+905309123066">
           <img
             src="/images/11.png"
             alt="Ara"

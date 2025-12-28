@@ -9,7 +9,7 @@ const QuickContactBox = () => {
         Hemen arayın ya da WhatsApp üzerinden bize ulaşın. Sipariş vermek hiç bu kadar kolay olmamıştı!
       </p>
       <a
-        href="tel:05309020175"
+        href="tel:05309123066"
         className="block w-full text-center bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded mb-2"
       >
         Telefonla Ara
