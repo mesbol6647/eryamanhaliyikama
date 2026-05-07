@@ -19,7 +19,7 @@ const ServicePage = () => {
     );
   }
 
-  const image = service.image || `/images/${slug}.png`; // (istersen içerikte kullanırsın)
+  // const image = service.image || `/images/${slug}.png`; // (istersen içerikte kullanırsın)
 
   // ✅ Eryaman odaklı Hizmet Bölgelerimiz listesi
   const sideLinks = [

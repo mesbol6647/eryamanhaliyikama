@@ -1,4 +1,169 @@
 
+// import * as React from "react";
+// import {
+//   AppBar,
+//   Box,
+//   Toolbar,
+//   IconButton,
+//   Menu,
+//   Container,
+  
+//   Button,
+ 
+//   MenuItem,
+//   Typography,
+// } from "@mui/material";
+// import MenuIcon from "@mui/icons-material/Menu";
+
+// import { useNavigate } from "react-router-dom";
+
+
+// const Navbar = () => {
+ 
+//   const navigate = useNavigate();
+ 
+//   const [anchorElNav, setAnchorElNav] = React.useState(null);
+//   const [anchorElUser, setAnchorElUser] = React.useState(null);
+//   const [scrolled, setScrolled] = React.useState(false); // SCROLL STATE
+
+//   // SCROLL YÖNETİMİ
+//   React.useEffect(() => {
+//     const handleScroll = () => {
+//       setScrolled(window.scrollY > 650);
+//     };
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, []);
+
+//   const handleOpenNavMenu = (e) => setAnchorElNav(e.currentTarget);
+//   const handleOpenUserMenu = (e) => setAnchorElUser(e.currentTarget);
+//   const handleCloseNavMenu = () => setAnchorElNav(null);
+//   const handleCloseUserMenu = () => setAnchorElUser(null);
+
+//   const handleNavigate = (path) => {
+//     navigate(path);
+//     handleCloseNavMenu();
+//   };
+
+//   const pages = [
+//     { name: "Anasayfa", path: "/" },
+//     { name: "Hakkımızda", path: "/hakkimizda" },
+//     { name: "Hizmetler", path: "/hizmetler" },
+//     { name: "Hizmet Noktaları", path: "/bolgeler" },
+//     { name: "Blog", path: "/blog" },
+//     { name: "SSS", path: "/faq" },
+//   ];
+
+//   return (
+//     <AppBar
+//       // position="fixed"
+//       elevation={4}
+//       sx={{
+//         backgroundColor: "rgba(17, 24, 39, 0.1)",
+//         backdropFilter: "blur(0px)",
+//         zIndex: 1500,
+//       }}
+//     >
+//       <Container maxWidth="xl">
+//         <Toolbar
+//           disableGutters
+//           sx={{
+//             height: 80,
+//             display: "flex",
+//             alignItems: "center",
+//             justifyContent: "space-between",
+//           }}
+//         >
+//           {/* Sol Logo + Başlık */}
+//           <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+//             {/* <Box
+//               component="img"
+//               src="/images/logohali.png"
+//               alt="logo"
+//               sx={{
+//                 height: 70,
+//                 width: 70,
+//                 objectFit: "contain",
+//                 cursor: "pointer",
+//               }}
+//               onClick={() => navigate("/")}
+//             /> */}
+//             {/* <Typography
+//               variant="h6"
+//               sx={{
+//                 color: scrolled ? "blue" : "white",
+//                 fontSize: { xs: "1.4rem", md: "1.8rem" },
+//                 // fontWeight: "bold",
+//                 lineHeight: 0.99,
+//                 letterSpacing: 1.2,
+//                 textAlign: "center",
+//                 flexGrow: { xs: 1, md: 0 },
+//                 fontFamily: "'Playfair Display', 'Poppins', sans-serif",
+//               }}
+//             >
+//               ERYAMAN HALI YIKAMA
+//             </Typography> */}
+//           </Box>
+
+//           {/* Masaüstü Menü */}
+//           <Box
+//             sx={{
+//               display: { xs: "none", md: "flex" },
+//               gap: 2,
+//               alignItems: "center",
+//             }}
+//           >
+//             {pages.map((page) => (
+//               <Button
+//                 key={page.name}
+//                 onClick={() => handleNavigate(page.path)}
+//                 sx={{
+//                   color: scrolled ? "blue" : "white",
+//                   fontWeight: "bold",
+//                 }}
+//               >
+//                 {page.name}
+//               </Button>
+//             ))}
+
+            
+//           </Box>
+
+//           {/* Mobil Menü */}
+//           <Box
+//             sx={{
+//               display: { xs: "flex", md: "none" },
+//               alignItems: "center",
+//               gap: 1,
+//             }}
+//           >
+//             <IconButton onClick={handleOpenNavMenu} sx={{ color: "#fff" }}>
+//               <MenuIcon sx={{ fontSize: 32 }} />
+//             </IconButton>
+//             <Menu
+//               anchorEl={anchorElNav}
+//               open={Boolean(anchorElNav)}
+//               onClose={handleCloseNavMenu}
+//               anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
+//               transformOrigin={{ vertical: "top", horizontal: "right" }}
+//             >
+//               {pages.map((page) => (
+//                 <MenuItem
+//                   key={page.name}
+//                   onClick={() => handleNavigate(page.path)}
+//                 >
+//                   <Typography textAlign="center">{page.name}</Typography>
+//                 </MenuItem>
+//               ))}
+//             </Menu>
+//           </Box>
+//         </Toolbar>
+//       </Container>
+//     </AppBar>
+//   );
+// };
+
+// export default Navbar;
 import * as React from "react";
 import {
   AppBar,
@@ -7,38 +172,37 @@ import {
   IconButton,
   Menu,
   Container,
-  Avatar,
   Button,
-  Tooltip,
   MenuItem,
   Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-
 import { useNavigate } from "react-router-dom";
 
-
 const Navbar = () => {
- 
   const navigate = useNavigate();
- 
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-  const [anchorElUser, setAnchorElUser] = React.useState(null);
-  const [scrolled, setScrolled] = React.useState(false); // SCROLL STATE
 
-  // SCROLL YÖNETİMİ
+  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [scrolled, setScrolled] = React.useState(false);
+
   React.useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 650);
     };
+
     window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const handleOpenNavMenu = (e) => setAnchorElNav(e.currentTarget);
-  const handleOpenUserMenu = (e) => setAnchorElUser(e.currentTarget);
-  const handleCloseNavMenu = () => setAnchorElNav(null);
-  const handleCloseUserMenu = () => setAnchorElUser(null);
+  const handleOpenNavMenu = (e) => {
+    setAnchorElNav(e.currentTarget);
+  };
+
+  const handleCloseNavMenu = () => {
+    setAnchorElNav(null);
+  };
 
   const handleNavigate = (path) => {
     navigate(path);
@@ -56,12 +220,18 @@ const Navbar = () => {
 
   return (
     <AppBar
-      // position="fixed"
+      position="fixed"
       elevation={4}
       sx={{
-        backgroundColor: "rgba(17, 24, 39, 0.1)",
-        backdropFilter: "blur(0px)",
+        backgroundColor: scrolled
+          ? "rgba(255, 255, 255, 0.95)"
+          : "rgba(17, 24, 39, 0.1)",
+        backdropFilter: scrolled ? "blur(10px)" : "blur(0px)",
+        boxShadow: scrolled
+          ? "0 4px 20px rgba(0,0,0,0.12)"
+          : "none",
         zIndex: 1500,
+        transition: "all 0.3s ease",
       }}
     >
       <Container maxWidth="xl">
@@ -74,36 +244,8 @@ const Navbar = () => {
             justifyContent: "space-between",
           }}
         >
-          {/* Sol Logo + Başlık */}
-          <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-            {/* <Box
-              component="img"
-              src="/images/logohali.png"
-              alt="logo"
-              sx={{
-                height: 70,
-                width: 70,
-                objectFit: "contain",
-                cursor: "pointer",
-              }}
-              onClick={() => navigate("/")}
-            /> */}
-            {/* <Typography
-              variant="h6"
-              sx={{
-                color: scrolled ? "blue" : "white",
-                fontSize: { xs: "1.4rem", md: "1.8rem" },
-                // fontWeight: "bold",
-                lineHeight: 0.99,
-                letterSpacing: 1.2,
-                textAlign: "center",
-                flexGrow: { xs: 1, md: 0 },
-                fontFamily: "'Playfair Display', 'Poppins', sans-serif",
-              }}
-            >
-              ERYAMAN HALI YIKAMA
-            </Typography> */}
-          </Box>
+          {/* Sol Logo Alanı */}
+          <Box sx={{ display: "flex", alignItems: "center", gap: 2 }} />
 
           {/* Masaüstü Menü */}
           <Box
@@ -111,6 +253,7 @@ const Navbar = () => {
               display: { xs: "none", md: "flex" },
               gap: 2,
               alignItems: "center",
+              marginLeft: "auto",
             }}
           >
             {pages.map((page) => (
@@ -118,15 +261,20 @@ const Navbar = () => {
                 key={page.name}
                 onClick={() => handleNavigate(page.path)}
                 sx={{
-                  color: scrolled ? "blue" : "white",
+                  color: scrolled ? "#0f172a" : "#ffffff",
                   fontWeight: "bold",
+                  textTransform: "none",
+                  fontSize: "15px",
+                  transition: "all 0.3s ease",
+                  "&:hover": {
+                    color: scrolled ? "#2563eb" : "#e0f2fe",
+                    backgroundColor: "transparent",
+                  },
                 }}
               >
                 {page.name}
               </Button>
             ))}
-
-            
           </Box>
 
           {/* Mobil Menü */}
@@ -134,18 +282,31 @@ const Navbar = () => {
             sx={{
               display: { xs: "flex", md: "none" },
               alignItems: "center",
-              gap: 1,
+              marginLeft: "auto",
             }}
           >
-            <IconButton onClick={handleOpenNavMenu} sx={{ color: "#fff" }}>
+            <IconButton
+              onClick={handleOpenNavMenu}
+              sx={{
+                color: scrolled ? "#0f172a" : "#ffffff",
+              }}
+            >
               <MenuIcon sx={{ fontSize: 32 }} />
             </IconButton>
+
             <Menu
               anchorEl={anchorElNav}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               anchorOrigin={{ vertical: "bottom", horizontal: "right" }}
               transformOrigin={{ vertical: "top", horizontal: "right" }}
+              PaperProps={{
+                sx: {
+                  mt: 1,
+                  minWidth: 220,
+                  borderRadius: 2,
+                },
+              }}
             >
               {pages.map((page) => (
                 <MenuItem
