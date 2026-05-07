@@ -61,33 +61,39 @@ import Stats from "../components/Stats";
 function Dashboard() {
   return (
     <>
-      <div className="relative w-full">
-        {/* Masaüstü Banner */}
-        <div className="hidden md:block w-full h-[850px]">
-          <img
-            src="/images/pcbanner6.png"
-            alt="PC Banner"
-            className="w-full h-full object-cover"
-          />
+      {/* GENEL WRAPPER */}
+      <div className="px-[2px] bg-white">
+        
+        {/* Banner Alanı */}
+        <div className="relative w-full overflow-hidden rounded-sm">
+          
+          {/* Masaüstü Banner */}
+          <div className="hidden md:block w-full h-[850px]">
+            <img
+              src="/images/pcbanner6.png"
+              alt="PC Banner"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Mobil Banner */}
+          <div className="block md:hidden w-full h-screen">
+            <img
+              src="/images/mobilbanner8.webp"
+              alt="Mobil Banner"
+              className="w-full h-full object-cover"
+            />
+          </div>
         </div>
 
-        {/* Mobil Banner */}
-        <div className="block md:hidden w-full h-screen overflow-hidden">
-          <img
-            src="/images/mobilbanner8.webp"
-            alt="Mobil Banner"
-            className="w-full h-full object-cover"
-          />
+        {/* ALT KISIM */}
+        <div className="relative z-10">
+          <Section1 />
+          <Testimonials />
+          <BlogPosts />
+          <Stats />
+          <Footer />
         </div>
-      </div>
-
-      {/* ALT KISIM */}
-      <div className="relative z-10">
-        <Section1 />
-        <Testimonials />
-        <BlogPosts />
-        <Stats />
-        <Footer />
       </div>
     </>
   );
