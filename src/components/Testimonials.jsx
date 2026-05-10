@@ -266,7 +266,7 @@ const Testimonials = () => {
 
             <div className="flex items-end gap-8">
               <span className="text-[22px] font-medium text-[#202124]">
-                4.85/5
+                4.9/5
               </span>
               <span className="text-[13px] text-[#70757a] mb-1">
                 519 yorum
