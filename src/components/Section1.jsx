@@ -170,7 +170,7 @@ const Section1 = () => {
       to={service.link}
       className="group block bg-[#fffaf4] rounded-[24px] overflow-hidden border border-[#eadcc8] shadow-[0_8px_28px_rgba(9,33,63,0.10)] hover:shadow-[0_14px_38px_rgba(9,33,63,0.18)] transition-all duration-500 no-underline"
     >
-      <div className="relative h-[185px] overflow-hidden">
+      <div className="relative h-[250px] overflow-hidden">
         <img
           src={service.image}
           alt={`Eryaman ${service.title}`}
@@ -192,20 +192,20 @@ const Section1 = () => {
         </div>
       </div>
 
-      <div className="p-4">
-        <p className="text-[#26364a] text-[15px] leading-7 font-medium">
+      <div className="p-8 md:p-7">
+       <p className="text-[#26364a] text-[17px] leading-9 font-medium">
           {serviceDescriptions[service.title]}
         </p>
 
-        <div className="mt-4 grid grid-cols-2 gap-2">
-          <span className="bg-white border border-[#eadcc8] rounded-xl px-3 py-2 text-[12px] font-bold text-[#09213f] text-center">
+        {/* <div className="mt-5 flex flex-wrap gap-3">
+         <span className="bg-white border border-[#eadcc8] rounded-xl px-3 py-2 text-[12px] font-bold text-[#09213f] text-center">
             Ücretsiz Servis
           </span>
 
-          <span className="bg-white border border-[#eadcc8] rounded-xl px-3 py-2 text-[12px] font-bold text-[#09213f] text-center">
+         <span className="bg-white border border-[#eadcc8] rounded-xl px-3 py-2 text-[12px] font-bold text-[#09213f] text-center">
             Hijyenik Yıkama
           </span>
-        </div>
+        </div> */}
 
         <div className="mt-4 flex items-center justify-between border-t border-[#eadcc8] pt-4">
           <span className="text-[#09213f] font-extrabold text-sm">
